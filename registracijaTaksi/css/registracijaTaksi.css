@@ -1,0 +1,16 @@
+#mainWrapper { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
+#mainWrapper #background { position: absolute; margin: 0; padding: 0; top: 0; left: 0; width: 100%; height: 100%; }
+#mainWrapper #background img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#mainWrapper #background_overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.5; }
+
+#mainWrapper #mainWrapperFormWrapper { background: #fff; position: absolute; top: calc(50% - 175px); left: calc(50% - 175px); width: 350px; height: 350px; border: 1px solid rgba(0,0,0,0.5); border-radius: 5px; }
+
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput { position: relative; top: 0; left: 0; width: 100%; height: 58.33px; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput h1 { margin: 0; font-size: 24px; text-align: center; padding-top: 15px; color: #333; letter-spacing: 3px; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput input { margin-left: 15px; width: calc(100% - 45px); height: 35px; border: none; border-bottom: 1px solid rgba(0,0,0,0.5); outline: none; padding-left: 15px; font-size: 12px; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput #posalji { width: 150px; height: 35px; margin-left: calc(50% - 75px); border: none; border-radius: 5px; font-size: 16px; background: #0ab4c8; color: #fff; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput #posalji:hover { cursor: pointer; }
+

@@ -1,0 +1,27 @@
+#mainWrapper { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+#mainWrapper #mainWrapperCategories { position: absolute; top: calc(50% - 175px); left: calc(50% - 360px); width: 720px; height: 350px; }
+
+#mainWrapper #background { position: absolute; margin: 0; padding: 0; top: 0; left: 0; width: 100%; height: 100%; }
+#mainWrapper #background img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#mainWrapper #background_overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: 0.5; }
+
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat1 { background: url('../images/slika.png'); background-size: 350px 350px; position: absolute; top: 0; left: 0; width: calc(50% - 10px); height: 350px; border-radius: 50%; }
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat2 { background: url('../images/taxi.jpg'); background-size: 350px 350px; position: absolute; top: 0; left: calc(50% + 10px); width: calc(50% - 10px); height: 350px; border-radius: 50%; }
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat1 #catOverlay { position: absolute; top: 0; left: 0; width: 350px; height: 350px; background: #000; opacity: 0.7; border-radius: 50%; }
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat2 #catOverlay { position: absolute; top: 0; left: 0; width: 350px; height: 350px; background: #000; opacity: 0.7; border-radius: 50%; }
+
+
+
+
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat1 #mainWrapperCategoriesCat1User { position: absolute; top: 100px; left: 0; width: 100%; height: 150px; }
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat1 #mainWrapperCategoriesCat1User a { text-decoration: none; text-align: center; position: absolute; top: 35%; left: 25%; font-size: 40px; color: #fff; }
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat2 #mainWrapperCategoriesCat2Taxi { position: absolute; top: 100px; left: 0; width: 100%; height: 150px; }
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat2 #mainWrapperCategoriesCat2Taxi a { text-decoration: none; text-align: center; position: absolute; top: 35%; left: 25%; font-size: 40px; color: #fff; }
+
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat1 #mainWrapperCategoriesCat1User #login{position: absolute; text-decoration: none; text-align: center; top: 75%; left: 42.5%; font-size: 20px; color: #fff;}
+#mainWrapper #mainWrapperCategories #mainWrapperCategoriesCat2 #mainWrapperCategoriesCat2Taxi #login{position: absolute; text-decoration: none; text-align: center; top: 75%; left: 42.5%; font-size: 20px; color: #fff;}
+
+
+
+

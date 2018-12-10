@@ -1,0 +1,35 @@
+#mainWrapper { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }
+
+#mainWrapper #mapWrapper { position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+
+#mainWrapper #checkRequest { position: absolute; left: calc(50% - 90px); top: 0; width: 175px; height: 60px; background: #00C6FF; }
+#mainWrapper #checkRequest #check { position: absolute; top: 10px; left: 10px; width: 155px; height: 40px; outline: none; border: none; border-radius: 3px; background: #fd8745; color: #fff; font-size: 14px; }
+#mainWrapper #checkRequest #check:hover { cursor: pointer; }
+
+#mainWrapper #lostFound { position: absolute; top: 60px; left: 40px; width: 40px; height: 40px; z-index: 100; }
+#mainWrapper #lostFound img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+#mainWrapper #lostFound img:hover { cursor: pointer; }
+
+
+#infoWindow { width: 150px; height: 80px; }
+#infoWindow #sendNotification { position: absolute; left: calc(50% - 50px); top: calc(100% - 50px); width: 100px; transition: 0.2s all; height: 30px; border: none; border-radius: 3px; outline: none; background: #00C6FF; }
+#infoWindow #sendNotification:hover { cursor: pointer; background: #f96816; }
+
+
+#acceptOrDeny { width: 160px; height: 80px; }
+#acceptOrDeny #doYou { position: absolute; left: calc(50% - 85px); top: calc(100% - 50px); width: 80px; transition: 0.2s all; height: 30px; border: none; border-radius: 3px; outline: none; background: #00C6FF; }
+#acceptOrDeny #doYouNot { position: absolute; left: calc(50% + 5px); top: calc(100% - 50px); width: 80px; transition: 0.2s all; height: 30px; border: none; border-radius: 3px; outline: none; background: #00C6FF; }
+#acceptOrDeny #doYou:hover, #acceptOrDeny #doYouNot:hover { cursor: pointer; background: #f96816; }
+
+
+
+
+#mainWrapper #mainWrapperFormWrapper { display: none; background: #fff; position: absolute; top: calc(50% - 116.66px); left: calc(50% - 160px); width: 350px; height: 233.32px; border-radius: 5px; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput { position: relative; top: 0; left: 0; width: 100%; height: 58.33px; padding: 0; margin: 0; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput h1 { margin: 0; font-size: 24px; text-align: center; padding-top: 15px; color: #333; letter-spacing: 3px; }
+
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput input { margin-left: 15px; width: calc(100% - 45px); height: 35px; border: none; border-bottom: 1px solid rgba(0,0,0,0.5); outline: none; padding-left: 15px; font-size: 12px; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput textarea { position: relative; width: calc(100% - 17px); height: 90px; resize: none; border: none; border-bottom: 1px solid rgba(0,0,0,0.5); outline: none; padding-left: 15px; font-size: 12px; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput #posalji { position: absolute; bottom: -30px; width: 150px; height: 35px; margin-left: calc(50% - 75px); border: none; border-radius: 5px; font-size: 16px; background: #0ab4c8; color: #fff; }
+#mainWrapper #mainWrapperFormWrapper #mainWrapperFormWrapperInput #posalji:hover { cursor: pointer; }
